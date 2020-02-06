@@ -1,0 +1,462 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+    <meta name="Description" content="Wrist support page">
+    <meta name="Keywords" content="Wrist, support">
+    <title>Support | Wrist</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <style type="text/css">
+        img {
+          border: 0;
+        }
+
+        body:not(.main-page) {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+        }
+
+        body {
+          margin: 0;
+        }
+
+        article,
+        header,
+        section {
+          display: block;
+        }
+
+        a {
+          background: 0 0;
+        }
+
+        h1 {
+          font-size: 2em;
+          margin: .67em 0;
+        }
+
+        svg:not(:root) {
+          overflow: hidden;
+        }
+
+        body,
+        html {
+          -webkit-box-sizing: border-box;
+        }
+
+        html {
+          -ms-text-size-adjust: 100%;
+          -webkit-text-size-adjust: 100%;
+          background: #fff;
+          font-family: 'Open Sans',sans-serif;
+          letter-spacing: .001em;
+          box-sizing: border-box;
+        }
+
+        body {
+          min-width: 320px;
+          box-sizing: border-box;
+          -webkit-overflow-scrolling: auto;
+        }
+
+        body:not(.main-page) {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          min-height: 100vh;
+          padding-top: 0;
+        }
+
+        .page-content {
+          -webkit-box-flex: 1;
+          -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+        }
+
+        .header .wrap {
+          -ms-flex-direction: row;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          align-content: center;
+        }
+
+        .wrap {
+          padding: 0 30px;
+          margin: 0 auto;
+        }
+
+        .image-wrap {
+          font-size: 0;
+          line-height: 0;
+        }
+
+        @media screen and (max-width:768px) {
+          .wrap {
+            padding: 0 20px;
+          }
+        }
+
+        .header {
+          position: fixed;
+          left: 0;
+          right: 0;
+          top: 0;
+          padding: 25px 0;
+          z-index: 2;
+        }
+
+        .header .logo {
+          display: block;
+          text-decoration: none;
+          position: relative;
+          z-index: 2;
+        }
+
+        .header .wrap {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          flex-direction: row;
+          -ms-flex-line-pack: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between;
+          width: 100%;
+          max-width: 1600px;
+          margin: 0 auto;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+        }
+
+        .header .contact-us,
+        .header .sign-in {
+          display: inline-block;
+          vertical-align: top;
+          height: 50px;
+          text-decoration: none;
+        }
+
+        .header .go-dashboard {
+          font-size: 0;
+          position: relative;
+          z-index: 2;
+        }
+
+        .header .sign-in {
+          font-size: 13px;
+          color: #FCC02E;
+          text-align: center;
+          border: 1px solid #FCC02E;
+          padding: 15px 20px;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          width: 120px;
+          border-radius: 50px;
+          line-height: 1.6;
+          letter-spacing: .04em;
+        }
+
+        .header .contact-us {
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          border-radius: 50px;
+          width: 50px;
+          border: 1px solid #FCC02E;
+          margin-right: 20px;
+          position: relative;
+        }
+
+        .header .contact-us svg {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+        }
+
+        @media screen and (max-width:1600px) and (min-width:768px) {
+          .inner-page .header {
+            background: -o-linear-gradient(left,#f2f2f2 0,#f2f2f2 240px,#fff 240px,#fff);
+            background: linear-gradient(to right,#f2f2f2 0,#f2f2f2 240px,#fff 240px,#fff);
+          }
+        }
+
+        .inner-page .header .wrap {
+          max-width: 1600px;
+          margin: 0 auto;
+        }
+
+        @media screen and (max-width:768px) {
+          .inner-page .header {
+            position: relative;
+          }
+
+          .inner-page .header .wrap {
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+          }
+
+          .inner-page .header .sign-in {
+            font-size: 0;
+            width: 50px;
+            background: url(images/svg-icons/sign-in.svg) center center no-repeat;
+          }
+        }
+
+        .inner-page-wrap {
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+        }
+
+        @media screen and (max-width:1600px) and (min-width:768px) {
+          .inner-page {
+            background: -o-linear-gradient(left,#f2f2f2 0,#f2f2f2 240px,#fff 240px,#fff);
+            background: linear-gradient(to right,#f2f2f2 0,#f2f2f2 240px,#fff 240px,#fff);
+          }
+        }
+
+        .inner-page-wrap {
+          width: 100%;
+          max-width: 1600px;
+          margin: 0 auto;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-direction: row;
+          flex-direction: row;
+          -webkit-box-pack: stretch;
+          -ms-flex-pack: stretch;
+          justify-content: stretch;
+          min-height: 100vh;
+          padding: 0 20px;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+        }
+
+        .inner-page-wrap .navigation {
+          min-width: 220px;
+          width: 220px;
+          background: #f2f2f2;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+        }
+
+        .inner-page-wrap .mobile-active {
+          display: none;
+        }
+
+        .inner-page-wrap .nav-wrapper {
+          position: relative;
+          right: 0;
+          top: 0;
+          max-width: 220px;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          padding: 195px 40px 30px 0;
+        }
+
+        @media screen and (max-width:1675px) and (min-width:768px) {
+          .inner-page-wrap .nav-wrapper {
+            left: 30px;
+          }
+        }
+
+        .inner-page-wrap .nav-wrapper ul {
+          margin: 0;
+          padding: 0;
+          display: inline-block;
+          vertical-align: top;
+        }
+
+        .inner-page-wrap .nav-wrapper li {
+          list-style: none;
+          margin-top: 20px;
+        }
+
+        .inner-page-wrap .nav-wrapper li:first-child {
+          margin-top: 0;
+        }
+
+        .inner-page-wrap .nav-wrapper li.current-cat a {
+          color: rgba(0,0,0,.3);
+        }
+
+        .inner-page-wrap .nav-wrapper a {
+          font-size: 13px;
+          color: #000;
+          text-transform: uppercase;
+          text-decoration: none;
+          letter-spacing: .04em;
+        }
+
+        .inner-page-wrap .page-content {
+          -webkit-box-flex: 1;
+          -ms-flex: auto;
+          flex: auto;
+          padding: 0 20px;
+        }
+
+        .inner-page-wrap .page-content-wrapper {
+          max-width: 700px;
+          margin: 0 auto;
+          padding-top: 200px;
+          padding-bottom: 200px;
+        }
+
+        .inner-page-wrap h1 {
+          margin: 0 0 65px;
+          font-size: 36px;
+          color: #fcc02e;
+          line-height: 1.389;
+          font-weight: 300;
+        }
+
+        .inner-page-wrap h2 {
+          font-size: 15px;
+          color: #000;
+          font-weight: 400;
+          margin: 0 0 30px;
+        }
+
+        .inner-page-wrap a {
+          color: #000;
+          text-decoration: none;
+        }
+
+        .inner-page-wrap h3,
+        .inner-page-wrap p {
+          font-size: 15px;
+          color: rgba(0,0,0,.502);
+          line-height: 1.668;
+          margin: 0;
+          font-weight: 300;
+        }
+
+        .inner-page-wrap section {
+          margin-top: 65px;
+        }
+
+        .inner-page-wrap .custom-list {
+          font-size: 15px;
+          color: rgba(0,0,0,.502);
+          line-height: 1.668;
+          margin: 0;
+          padding: 0;
+        }
+
+        .inner-page-wrap .custom-list li {
+          list-style: none;
+          color: rgba(0,0,0,.502);
+          font-weight: 300;
+        }
+
+        .inner-page-wrap .custom-list li:before {
+          content: "•";
+          font-weight: 400;
+          margin-right: 27px;
+        }
+
+        @media screen and (max-width:768px) {
+          .inner-page-wrap {
+            padding: 0;
+            display: block;
+          }
+
+          .inner-page-wrap .navigation {
+            position: relative;
+            width: 100%;
+            background: #fff;
+          }
+
+          .inner-page-wrap .nav-wrapper {
+            width: 100%;
+            padding: 0;
+            max-width: 100%;
+          }
+
+          .inner-page-wrap .nav-wrapper ul {
+            display: none;
+            padding-top: 15px;
+            padding-bottom: 15px;
+          }
+
+          .inner-page-wrap .nav-wrapper ul li a {
+            padding: 0 20px;
+          }
+
+          .inner-page-wrap .mobile-active {
+            display: block;
+            font-size: 13px;
+            color: #000;
+            text-transform: uppercase;
+            padding: 20px;
+            position: relative;
+            border-bottom: 1px solid #f2f2f2;
+          }
+
+          .inner-page-wrap .mobile-active:after {
+            content: "";
+            display: block;
+            position: absolute;
+            right: 20px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            width: 9px;
+            height: 5px;
+            background: url(images/svg-icons/arrow.svg) center center no-repeat;
+          }
+
+          .inner-page-wrap .page-content {
+            padding: 0 20px;
+          }
+
+          .inner-page-wrap .page-content-wrapper {
+            padding-top: 40px;
+            padding-bottom: 60px;
+          }
+
+          .inner-page-wrap .page-content-wrapper h1 {
+            margin-bottom: 40px;
+          }
+
+          .inner-page-wrap .page-content-wrapper section {
+            margin-top: 40px;
+          }
+        }
+
+    </style>
+    <link rel="stylesheet" href="style.min.css" as="style" onload="this.rel='stylesheet'">
+    <noscript>&lt;link rel="stylesheet" href="style.min.css"&gt;</noscript>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet" as="style" onload="this.rel='stylesheet'">
+    <noscript>&lt;link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet"&gt;</noscript>
+</head>
+<body class="inner-page">
+<header class="header fixed">
+</header>
+<div class="inner-page-wrap">
+    <div class="page-content">
+        <article class="page-content-wrapper">
+            <h1>Wrist – Support</h1>
+            <section id="contact">
+                    <h2>
+                            Contact Information
+                    </h2>
+                    <p>
+                            Please address any queries to
+                            <a href="mailto:wrist.team@gmail.com">wrist.team@gmail.com</a>.
+                    </p>
+            </section>
+        </article>
+
+    </div>
+
+</div>
+
+</body></html>
